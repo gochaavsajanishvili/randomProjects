@@ -1,0 +1,121 @@
+body {
+  height: 1000px;
+}
+
+/* ============ Navbar General ============ */
+
+nav {
+  /*@TODO remember to change back to min-height: 50px; when you fill
+  navbar with elements and find out why they don't align perfectly if
+  they won't
+  */
+  height: 50px;
+  border-bottom: 1px solid #dee0e1;
+  box-shadow: 0 3px 6px rgb(0 0 0 / 4%);
+}
+
+nav .container {
+  max-width: 1002px;
+  display: flex;
+  margin: auto;
+}
+
+/* ============ Navbar Brand ============ */
+.brand {
+  display: inline-block;
+  margin-right: 24px;
+}
+
+a {
+  transition: 180ms ease-out;
+}
+
+a:hover {
+  opacity: .7;
+  /* transition: 180ms ease-out; */
+}
+
+.brand svg {
+  width: 87.8261px;
+  height: 50px;
+}
+
+.logo_fill {
+  fill: rgb(185, 43, 39);
+}
+
+/* ============ Navbar Buttons ============ */
+.navbar_func {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 24px;
+}
+
+.navbar_func svg {
+  width: 24px;
+  height: 24px;
+}
+
+.navbar_func li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 49px;
+  min-width: 60px;
+  transition: 180ms ease-out;
+  /* I had to write this margin to match the alignment of buttons
+  on quora, not a best idea but well, it works for now.
+  */
+  margin-top: -3px;
+}
+
+.navbar_func li a:hover {
+  background-color: #f7f7f8;
+}
+
+/* ============ Navbar Search Input ============ */
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-tool svg {
+  width: 11.97px;
+  height: 11.97px;
+}
+
+.search-tool svg path {
+  stroke: rgb(147, 149, 152);
+}
+
+.search {
+  border: none;
+  min-height: 26px;
+  font-size: 13px;
+  color: rgb(40, 40, 41);
+  outline: none;
+  /* width: 100%; */
+}
+
+.search::placeholder {
+  color: rgb(147, 149, 152);
+  font-size: 13px;
+  font-family: sans-serif;
+}
+
+.search_container {
+  border: 1px solid #dee0e1;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  padding: 4px 8px;
+  transition: 180ms ease-in-out;
+  width: 229px;
+  margin-top: -1px;
+}
+
+.search_container:hover {
+  border-color: #2e69ff;
+}
