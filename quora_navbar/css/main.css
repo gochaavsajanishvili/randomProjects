@@ -133,10 +133,41 @@ form {
   cursor: pointer;
   background-color: #f7f7f8;
   margin-left: 15px;
+  margin-right: 8px;
   font-size: 13px;
   color: #636466;
 }
 
 .btn_quora_plus:hover {
   background-color: #ECECEE;
+}
+
+/* ============ Navbar Profile/Languages Buttons ============ */
+.profile-language_container ul {
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.profile-language_container a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 43px;
+}
+
+.profile-language_container a:hover {
+  background-color: #f7f7f8;
+}
+
+.language_switch a svg {
+  width: 24px;
+  height: 24px;
+  fill: #636466;
+}
+
+.profile_pic a img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
 }
