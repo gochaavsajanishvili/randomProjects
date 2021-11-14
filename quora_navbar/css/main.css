@@ -171,3 +171,21 @@ form {
   height: 24px;
   border-radius: 50%;
 }
+
+/* ============ Navbar Add Question Button ============ */
+.add_question {
+  background-color: #b92b27;
+  transition: 60ms ease-out;
+  color: #FFFFFF;
+  border: 0px;
+  height: 30px;
+  min-width: 30px;
+  padding: 0 15px;
+  border-radius: 1000px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.add_question:hover {
+  background-color: rgb(168, 39, 35);
+}
