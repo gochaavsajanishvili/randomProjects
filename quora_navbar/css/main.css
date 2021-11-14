@@ -18,6 +18,7 @@ nav .container {
   max-width: 1002px;
   display: flex;
   margin: auto;
+  align-items: center;
 }
 
 /* ============ Navbar Brand ============ */
@@ -87,7 +88,7 @@ form {
 }
 
 .search-tool svg path {
-  stroke: rgb(147, 149, 152);
+  stroke: #C2C3C5;
 }
 
 .search {
@@ -100,7 +101,7 @@ form {
 }
 
 .search::placeholder {
-  color: rgb(147, 149, 152);
+  color: #939598;
   font-size: 13px;
   font-family: sans-serif;
 }
@@ -118,4 +119,24 @@ form {
 
 .search_container:hover {
   border-color: #2e69ff;
+}
+
+/* ============ Navbar Quora Plus Button ============ */
+.btn_quora_plus {
+  border-radius: 1000px;
+  padding: 0px 15px;
+  height: 30px;
+  min-width: 30px;
+  box-shadow: rgb(99 100 102 / 20%) 0px 0px 0px 1px inset;
+  border: 0px;
+  transition: 60ms ease-out;
+  cursor: pointer;
+  background-color: #f7f7f8;
+  margin-left: 15px;
+  font-size: 13px;
+  color: #636466;
+}
+
+.btn_quora_plus:hover {
+  background-color: #ECECEE;
 }
