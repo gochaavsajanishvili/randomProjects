@@ -1,0 +1,81 @@
+/* ====== Variables ====== */
+:root {
+  --header-bgColor: #2A2F32;
+  --secondary-txt: #B1B3B5;
+}
+
+/* ====== General Styles ====== */
+body {
+  background-color: #090E11;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* ====== Main Section Styles ====== */
+main {
+  /* Have to use more responsive width after filling the container
+  cuz otherwise it collapses.
+  */
+  width: 1396px;
+  /* max-width: 1396px; */
+  min-height: 675.600px;
+  /* border: 1px solid red; */
+}
+
+/* ====== Chat List Styles ====== */
+main .chat_list {
+  max-width: 418.800px;
+  min-height: inherit;
+  border-right: 1px solid rgba(241, 241, 242, .11);
+}
+
+/* ====== Chat List Header Styles ====== */
+header {
+  display: flex;
+  background-color: var(--header-bgColor);
+  /* and again min-height: 39px; works not well here too like in previous
+  project, gotta figure out soon why, stop being lazy boy :d */
+  height: 39px;
+  padding: 10px 16px;
+  justify-content: space-between;
+}
+
+/* ====== Chat List Profile Styles ====== */
+.chat_list .profile {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.chat_list .profile img {
+  cursor: pointer;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+}
+
+.chat_list .profile span {
+  color: var(--secondary-txt);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 10px;
+  margin-left: 20.5px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* ====== Chat List Nav Styles ====== */
+.nav_btns {
+  width: 124px;
+  margin-top: 3px;
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav_btns li svg {
+  color: var(--secondary-txt);
+  cursor: pointer;
+}
