@@ -123,9 +123,10 @@ header {
   background-color: var(--highlight-bgColor);
   min-width: 295.8px;
   border: none;
-  color: #848788;
+  color: #d4d5d7;
   margin-top: 2px;
   margin-left: 21px;
+  outline: none;
 }
 
 .chat_list_search input::placeholder {
