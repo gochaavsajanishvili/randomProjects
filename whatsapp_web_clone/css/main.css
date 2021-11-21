@@ -28,7 +28,6 @@ main {
   width: 1396px;
   /* max-width: 1396px; */
   min-height: 675.600px;
-  /* border: 1px solid red; */
 }
 
 /* ====== Chat List Styles ====== */
@@ -53,7 +52,6 @@ header {
 .chat_list .profile {
   display: flex;
   align-items: center;
-  /* justify-content: center; */
 }
 
 .chat_list .profile img {
@@ -104,12 +102,7 @@ header {
   border-radius: 18px; 
   display: flex;
   align-items: center;
-  margin-left: -1px; 
-  /* 
-  justify-content: space-between;
-  padding-left: 65px;
-  padding-right: 20px;
-  */
+  margin-left: -1px;
 }
 
 .chat_list_search label button {
@@ -160,8 +153,6 @@ header {
   justify-content: space-between;
   margin-left: 23px;
   width: 100%;
-  /* border: 1px solid red; */
-  /* height: 150px; */
 }
 
 .chats .archived .archived_icon svg {
@@ -181,9 +172,4 @@ header {
   margin-left: 30px;
   height: 48px;
   border-bottom: 1px solid var(--chatList-border);
-  /* margin-top: -1px; */
-  /* border: 1px solid red; */
-  /* padding-bottom: 12px; */
-  /* line-height: 1; */
-  /* width: 100%; */
 }
