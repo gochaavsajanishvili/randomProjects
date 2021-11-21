@@ -6,6 +6,8 @@
   --highlight-bgColor: #323739;
   --chatsList-bgColor: #131C21;
   --chatList-border: #242d32;
+  --primary-txt: #BEC0C2;
+  --icon-color: #00af9c;
 }
 
 /* ====== General Styles ====== */
@@ -134,4 +136,54 @@ header {
   color: #848788;
   font-size: 14px;
   font-weight: 400;
+}
+
+/* ====== Chat List Chats Styles ====== */
+.chats {
+  overflow-y: auto;
+}
+
+.chats .archived {
+  background-color: var(--chatsList-bgColor);
+  color: var(--primary-txt);
+  width: 100%;
+  height: 49px;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+
+.chats .archived .archived_inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 23px;
+  width: 100%;
+  /* border: 1px solid red; */
+  /* height: 150px; */
+}
+
+.chats .archived .archived_icon svg {
+  color: var(--icon-color);
+  margin-left: 23px;
+  margin-top: 2px;
+}
+
+.chats .archived .archived_text {
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: 500;
+  flex-grow: 1;
+  text-align: left;
+  margin-left: 30px;
+  height: 48px;
+  border-bottom: 1px solid var(--chatList-border);
+  /* margin-top: -1px; */
+  /* border: 1px solid red; */
+  /* padding-bottom: 12px; */
+  /* line-height: 1; */
+  /* width: 100%; */
 }
